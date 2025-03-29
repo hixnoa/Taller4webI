@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: black;
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background: url('../recursos/mujer\ tennis.avif') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: yellow;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.testimonial {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    background: url('../recursos/victor.avif') no-repeat center center/cover;
+    border-radius: 50%;
+}
+.quote-author {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.yellow-quote {
+    font-size: 60px;
+    color: yellow;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1;
+}
+.pricing {
+    text-align: center;
+    padding: 50px 0;
+    background: #f8f8f8;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.pricing-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    background: yellow;
+}
+
+.pricing-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+}
+
+.img1 { background-image: url('../recursos/foto1.avif'); }
+.img2 { background-image: url('../recursos/foto2.png'); }
+.img3 { background-image: url('../recursos/foto3.jpg'); }
+.img4 { background-image: url('../recursos/foto4.webp'); }
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.contact {
+    text-align: center;
+    background: #4a5568;
+    padding: 40px;
+    color: white;
+}
+
+.contact .btn {
+    background: yellow;
+}
+.footer {
+    background: #2d2d2d; 
+    color: white;
+    text-align: center; 
+    padding: 20px 0;  
+}
+
+.footer-text {
+    font-size: 14px; 
+    opacity: 0.7; 
+}

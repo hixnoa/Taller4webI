@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.title {
+    font-size: 14px;
+    color: #868181;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    width: 200px;
+}
+
+.plan h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #242222;
+    position: relative;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+ul li::before {
+    content: "•";
+    color: #ffcc00;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+
+.business {
+    background-color: #2ecc71;
+    color: white;
+    border: 2px solid #2ecc71;
+}
+
+.business-price {
+    color: #ffcc00; 
+}
+
+.business h3 {
+    color: white;
+}
+
+.business ul li {
+    color: white;
+}
+
+.business ul li::before {
+    color: #ffcc00;
+}
+
+.business button {
+    background-color: #ffcc00;
+    color: white;
+}
+
+.business button:hover {
+    background-color: #e6b800;
+}

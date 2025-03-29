@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #414141;
+    
+}
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hero {
+    background: #FFD700;
+    color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero img {
+    max-width: 250px;
+}
+
+.text {
+    max-width: 400px;
+}
+
+.text h1 {
+    font-size: 28px;
+}
+
+.text p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.latest-projects {
+    background: #FFD700;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.projects img {
+    width: 45%;
+    margin: 10px;
+}
+
+.latest-works {
+    text-align: center;
+    background: #eee;
+    color: black;
+    padding: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.work {
+    background: #FFD700;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.contact {
+    background: #FFD700;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: black;
+}
+
+.contact-info {
+    max-width: 40%;
+}
+
+.contact-form {
+    max-width: 50%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    background: #efcc06;
+    color: black;
+    border: none;
+    
+}
+
+footer {
+    background: #FFD700;
+    padding: 20px;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: none; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); 
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-item {
+    flex: 1;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+}
